@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    background: #000; 
+  }
+
+  #homepage_header{
+      background-color: #FFE5D9!important;
+      opacity: 0.4;
+      width: 100%; 
+      height: auto; 
+      font-family: 'Josefin Sans', sans-serif;
+    
+  }
+
+  video { 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background: url('#') no-repeat;
+      background-size: cover;
+      transition: 1s opacity;
+  }
+  .stopfade { 
+     opacity: .5;
+  }
+  
+  #polina { 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin:2rem;
+    float: right;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+  }
+  #polina button { 
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none; 
+    margin: 1rem auto; 
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+  }
+  #polina button:hover { 
+     background: rgba(0,0,0,0.5);
+     width: 100%;
+  }
+  
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: .5rem;
+    transition: .6s background; 
+  }
+  a:hover{
+    width: 100%; 
+    background:rgba(0,0,0,0.9);
+    text-decoration-line: none !important;
+  }
+ 
+
+
+  @media screen and (max-device-width: 900px) {
+    div{width:80%;} 
+
+    #homepage_header{
+        width: 80%;
+        
+    }
+
+    h1{
+        width: 80%; 
+        text-align: center;
+    }
+
+
+  @media screen and (max-device-width: 500px) {
+    div{width:50%;} 
+    body{
+        background-color: rgba(184, 83, 99, 0.315) !important;
+    }
+
+    #homepage_header{
+        width: 0px;
+        
+    }
+
+    h1{
+        width: 50%; 
+    }
+    #bgvid { display: none; }
+
+  }
+  
+  
