@@ -1,3 +1,6 @@
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+ 
 var welcome = "❤️ WELCOME TO OUR BUNNY MATCHMAKER! HERE YOU CAN FIND OUT WHETHER YOUR BUNNIES ARE DESTINED TO BE TOGETHER! ❤️"
 
 alert(welcome);
@@ -27,4 +30,4 @@ else{
     alert("HURRAY! ❤️ \n \n" + slicefname1 + slicerestname1 + ", you are an " + rounded + "% match with " + slicefname2 + slicerestname2 + ". \n \n You are made for eachother!");
 }
 
-
+});
